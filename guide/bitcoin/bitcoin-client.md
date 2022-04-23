@@ -43,7 +43,7 @@ This is a precaution to make sure that this is an official release and not a mal
 
   ```sh
   # download Bitcoin Core binary
-  $ wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-aarch64-linux-gnu.tar.gz
+  $ wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 
   # download the list of cryptographic checksum
   $ wget https://bitcoincore.org/bin/bitcoin-core-22.0/SHA256SUMS
@@ -81,7 +81,7 @@ This is a precaution to make sure that this is an official release and not a mal
 * If you're satisfied with the signature check, extract the Bitcoin Core binaries, install them and check the version.
 
   ```sh
-  $ tar -xvf bitcoin-22.0-aarch64-linux-gnu.tar.gz
+  $ tar -xvf bitcoin-22.0-x86_64-linux-gnu.tar.gz
   $ sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-22.0/bin/*
   $ bitcoind --version
   > Bitcoin Core version v22.0.0
